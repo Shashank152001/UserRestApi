@@ -1,0 +1,23 @@
+###
+GET http://localhost:5000/api/user
+
+
+###
+POST http://localhost:5000/api/user
+Content-Type: application/json
+
+{
+    "fname":"Pulkit",
+    "lname":"Bansal",
+    "mobileno":9898787843,
+    "email":"Pulkit@gmail.com",
+    "city":"Ajmer"
+}
+
+
+###
+GET http://localhost:5000/api/user/
+
+
+###
+DELETE http://localhost:5000/api/user/636c8f974df125a5ff748619
